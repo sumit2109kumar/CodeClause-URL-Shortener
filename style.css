@@ -1,0 +1,109 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+
+body{
+    background-image: url("background.jpg");
+
+}
+
+
+.main{
+    padding: 10px 10px;
+    position: relative;
+    background-color: rgba(22, 4, 50, 0.395);
+    width: 450px;
+    height: 400px;
+    top: 3.0px;
+    left: 450px;
+    transform: translate(-50% 50%);
+    border: 5px solid;
+    border-radius: 40px;
+}
+
+
+
+#longurl{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+
+#shorturl{
+    position: relative;
+    top: 170px;
+    left: 20px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+#copy{
+    position: relative;
+    top: 170px;
+    left: 20px;
+    height: 35px;
+    width: 70px;
+    background-color: blanchedalmond;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 0px 0px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+#shorten{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    height: 35px;           
+    width: 100px;
+    background-color: blanchedalmond;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-left: 0px 0px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+#shorten:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#copy:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.main p{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: rgb(7, 1, 28);
+}

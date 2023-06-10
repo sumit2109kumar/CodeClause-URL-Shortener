@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>URL Shortener</title>
+    <style>
+        nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        background-color: rgba(18, 18, 87, 0.466);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 2rem;
+        margin: 50px;
+      }
+      footer {
+    text-align: center;
+    padding: 14px ;
+      }
+      .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      .footer-first{
+        margin: 45px;
+        color: rgb(103, 120, 135);
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer >div{
+        width: 223px;
+      }
+      .footer-rights{
+        text-align: center;
+        color: #a07474;
+      }
+      .footer-third{
+        color: aquamarine;
+        padding: 48px 45px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Sumit's URL Shortener</div>
+        </nav>
+      </header>
+    <div class="main">
+        
+    <p>URL Shortener</p>
+        <input type="text" placeholder="Example: https://www.youtube.com/watch?v=PYySaYuoPhM" id="longurl">
+        <button id="shorten">shorten</button><br>
+        <input type="text" placeholder="Example: favorite-link" id="shorturl">
+        <button id="copy">copy</button>
+        
+    </div>
+    <script src="url.js" ></script>
+    <script src="copy.js" ></script>
+    <footer>
+        
+        <div class="footer">
+            <div class="footer-first">
+                <h3></h3>
+            </div>
+            
+            <div class="footer-third">
+                <i>“The computer was born to solve problems that did not exist before.”</i> 
+                	<b> &#8722 Bill Gates</b>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169 2023 Sumit Kumar | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
